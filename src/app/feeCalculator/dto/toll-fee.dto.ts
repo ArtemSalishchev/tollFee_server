@@ -1,5 +1,13 @@
+import { VehiclesTypes } from 'src/core/vehicle';
+import { IsEnum, IsString, IsDateString } from 'class-validator';
+
 export class RequestTollFeeData {
+  @IsEnum(VehiclesTypes)
   vehicleType: string;
-  checkInDate: Date;
-  checkOutDate: Date;
+
+  @IsDateString()
+  checkInDate: string;
+
+  @IsDateString()
+  checkOutDate: string;
 }

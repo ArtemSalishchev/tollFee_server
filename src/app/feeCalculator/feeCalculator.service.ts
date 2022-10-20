@@ -11,8 +11,8 @@ export class FeeCalculatorService {
   ) {}
 
   public async calculateTollFee(
-    checkInDate: Date,
-    checkOutDate: Date,
+    checkInDate: string,
+    checkOutDate: string,
     vehicleType: string,
   ) {
     const vehicle: Vehicle = this.vehicleFactory.createVehicle(

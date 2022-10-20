@@ -1,11 +1,12 @@
 import { FeeCalculatorService } from './feeCalculator.service';
-import { Body, Controller, HttpCode, Post } from '@nestjs/common';
+import { Body, Controller, HttpCode, Post, UsePipes } from '@nestjs/common';
 import { RequestTollFeeData } from './dto/toll-fee.dto';
 
 @Controller('tollFee')
 export class FeeCalculatorController {
   constructor(private feeCalculatorService: FeeCalculatorService) {}
 
+  @UsePipes()
   @Post('')
   @HttpCode(200)
   public async calculateTollFee(
