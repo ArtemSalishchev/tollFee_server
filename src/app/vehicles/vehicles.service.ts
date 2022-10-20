@@ -1,6 +1,6 @@
-import { VehiclesTypes } from '../../Core/Vehicle';
+import { VehiclesTypes } from '../../core/vehicle';
 import { Injectable } from '@nestjs/common';
-import { FREE_TAX_VEHICLES_LIST } from 'src/Core/Vehicle';
+import { FREE_TAX_VEHICLES_LIST } from 'src/core/vehicle';
 
 @Injectable()
 export class VehiclesService {

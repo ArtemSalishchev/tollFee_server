@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import * as dateFns from 'date-fns';
-import { HolidaysTracker } from '../HolidaysTracker';
+import { HolidaysTracker } from '../holidaysTracker';
 import { FeeRating, MAX_FEE } from './constants';
 
 @Injectable()

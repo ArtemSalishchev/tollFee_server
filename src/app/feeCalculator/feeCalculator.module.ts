@@ -1,9 +1,9 @@
-import { TimeTracker } from './../../Core/TimeTracker/TimeTracker';
 import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
-import { FeeCalculator } from 'src/Core/FeeCalculator';
-import { HolidaysTracker } from 'src/Core/HolidaysTracker';
-import { VehicleFactory } from 'src/Core/Vehicle';
+import { TimeTracker } from 'src/core/timeTracker';
+import { FeeCalculator } from 'src/core/feeCalculator';
+import { HolidaysTracker } from 'src/core/holidaysTracker';
+import { VehicleFactory } from 'src/core/vehicle';
 import { FeeCalculatorController } from './feeCalculator.controller';
 import { FeeCalculatorService } from './feeCalculator.service';
 

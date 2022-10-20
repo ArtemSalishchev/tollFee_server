@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { TimeTracker } from '../TimeTracker';
-import { FREE_TAX_VEHICLES_LIST, Vehicle } from '../Vehicle';
+import { TimeTracker } from 'src/core/timeTracker';
+import { FREE_TAX_VEHICLES_LIST, Vehicle } from 'src/core/vehicle';
 
 @Injectable()
 export class FeeCalculator {

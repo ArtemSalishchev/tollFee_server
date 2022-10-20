@@ -7,6 +7,6 @@ export * from './Track';
 export * from './Tractor';
 export * from './Van';
 export * from './Vehicle';
-export * from './constants';
 export * from './VehiclesTypes';
 export * from './VehicleFactory';
+export * from './constants';

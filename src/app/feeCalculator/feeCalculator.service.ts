@@ -1,7 +1,7 @@
-import { VehicleFactory, VehiclesTypes } from './../../Core/Vehicle';
-import { FeeCalculator } from './../../Core/FeeCalculator/FeeCalculator';
+import { VehicleFactory, VehiclesTypes } from 'src/core/vehicle';
+import { FeeCalculator } from 'src/core/feeCalculator';
 import { Injectable } from '@nestjs/common';
-import { Vehicle } from 'src/Core/Vehicle';
+import { Vehicle } from 'src/core/vehicle';
 
 @Injectable()
 export class FeeCalculatorService {

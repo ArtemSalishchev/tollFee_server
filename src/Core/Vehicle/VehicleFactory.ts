@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { VehiclesTypes } from './VehiclesTypes';
 import {
   Ambulance,
   Car,
@@ -9,7 +8,8 @@ import {
   Van,
   Military,
   Emergency,
-} from '.';
+  VehiclesTypes,
+} from './';
 
 @Injectable()
 export class VehicleFactory {
